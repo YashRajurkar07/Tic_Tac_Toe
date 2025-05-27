@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  /* background-color: #141415; */
+  background: radial-gradient(circle, rgb(238, 0, 255) 0%, rgba(0, 0, 0, 1) 85%);
+}
+
+#title {
+  font-size: 25px;
+  color: #f6ff00;
+  text-shadow: 0 0 20px #f6ff00;
+  font-family: 'Brush Script MT';
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+#container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.btn {
+  height: 19vmin;
+  width: 19vmin;
+  border-radius: 15px;
+  font-size: 6.5vmin;
+  /* background-color: #1e1f23; */
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 25px rgb(255, 255, 255);
+  background-color:#141415;
+  border-color:rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  
+}
+
+#restartbtn {
+  height: 7vmin;
+  width: 25vmin;
+  background-color: #1e1f23; 
+  border-radius: 10px;
+  font-size: 3vmin;
+  color:#f6ff00;
+  text-shadow: 0 0 25px #f6ff00;
+  border-color:#f6ff00;
+  box-shadow: 0 0 10px #f6ff00;
+}
+
+.styleX {
+  color: rgb(0, 255, 255);
+  text-shadow: 0 0 25px rgb(0, 255, 255);
+  background-color:#141415;
+  border-color:rgb(0, 255, 255);
+  box-shadow: 0 0 10px rgb(0, 255, 255);
+}
+
+.styleO {
+  color: rgb(67, 255, 46);
+  text-shadow: 0 0 25px rgb(67, 255, 46);
+  background-color:#141415;
+  border-color:rgb(67, 255, 46);
+  box-shadow: 0 0 10px rgb(67, 255, 46);
+}
