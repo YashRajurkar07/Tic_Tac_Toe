@@ -60,7 +60,7 @@ body {
   border-color:#f6ff00;
   box-shadow: 0 0 10px #f6ff00;
   margin-top: 7px;
-  margin-bottom: 10px;
+
 }
 
 .styleX {
@@ -82,8 +82,7 @@ body {
 #footer {
   margin-left: 80vmin;
   font-size: 25px;
-  /* height: 30vmin;
-  width: 70vmin; */
+  font-family:monospace;
   display: flex;
   flex-direction: column;
   justify-items: start;
