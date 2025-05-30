@@ -2,18 +2,17 @@
 
 A simple, clean, and fully responsive **Tic Tac Toe** web game built using **HTML**, **CSS**, and **JavaScript**. This project is designed to showcase basic game logic implementation and front-end development skills using vanilla web technologies.
 
-![Game Screenshot](./assets/screenshot.png) 
 
 ## 🔗 Live Demo
 
-Check out the live version of the game here: [Play Now](https://your-github-username.github.io/tic-tac-toe/)
+Check out the Live Version of the Game here: [Play Now](https://yashrajurkar07.github.io/Tic_Tac_Toe/)
 
 ## 🚀 Features
 
-- 🧠 2-player mode (play with a friend on the same device)
-- 🧼 Clean and intuitive UI
-- 💡 Game logic with win/draw detection
-- 🔄 Restart functionality
+- 🧠 2-Player Mode (Play with a Friend on the Same Device)
+- 🧼 Clean and Intuitive UI
+- 💡 Game logic with Win/Draw Detection
+- 🔄 Restart Functionality
 
 ## 🛠️ Tech Stack
 
@@ -34,3 +33,4 @@ Check out the live version of the game here: [Play Now](https://your-github-user
 4. If all 9 squares are filled and no player has won, the game ends in a draw.
 5. Use the **Restart** button to start a new game.
 
+## ⭐ If You Liked this Project, Feel Free to Give it a Star!
