@@ -2,6 +2,7 @@ let boxes = document.querySelectorAll(".btn");
 let restartGameBtn = document.querySelector("#restartbtn");
 
 let turnO = true;
+let count = 0;
 
 const wpatterns = [
   [0, 1, 2],
@@ -29,6 +30,11 @@ boxes.forEach((btn) => {
     }
 
     btn.disabled = true;
+    count++;
+  if(count==9)
+  {
+    showDraw();
+  } 
     checkWinner();
   });
 });
@@ -45,12 +51,16 @@ const checkWinner = () => {
       showWinner(pos1);
     }
   }
+  
   }
 };
 
 const showWinner = (winner) => {
-  alert(`Winner is ${winner}`);
+  alert(`Congratulations!! The Winner is ${winner}`);
   disableBoxes();
+}
+const showDraw = () => {
+  alert("Match Has Been Drawn! Please Restart The Game.");
 }
 
 const disableBoxes = () => {
@@ -72,6 +82,7 @@ const resetBoxes = () => {
 const restartGame = () => {
   turnO = true;
   resetBoxes();
+  count=0;
 }
 
 restartGameBtn.addEventListener("click", restartGame);
